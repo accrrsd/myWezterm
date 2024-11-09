@@ -16,6 +16,7 @@ c.window_padding = {
   bottom = 0,
 }
 c.enable_scroll_bar = false
+c.enable_wayland = false
 
 if wezterm.target_triple == "x86_64-pc-windows-msvc" then
   c.default_prog = {"powershell.exe"}
