@@ -2,7 +2,7 @@ local wezterm = require 'wezterm';
 local act = wezterm.action
 local c = wezterm.config_builder()
 
-c.font = wezterm.font("Fira Code")
+c.font = wezterm.font("FiraCodeNerdFont")
 c.font_size = 12.0
 c.window_background_opacity = 0.9
 c.enable_tab_bar = false
