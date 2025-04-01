@@ -2,10 +2,13 @@ local wezterm = require("wezterm")
 local act = wezterm.action
 local c = wezterm.config_builder()
 
+
 c.font = wezterm.font("FiraCode Nerd Font")
 c.font_size = 12.0
 c.window_background_opacity = 0.9
 c.enable_tab_bar = false
+-- disable wayland help with some bugs
+c.enable_wayland = false
 
 -- Функция для изменения размера шрифта
 local function set_font_size(window, _pane, new_size)
