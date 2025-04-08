@@ -42,9 +42,10 @@ end
 
 c.window_close_confirmation = "NeverPrompt"
 
-c.keys = {
-	{ key = "v", mods = "CTRL", action = act.PasteFrom("Clipboard") },
-	{ key = "v", mods = "CTRL", action = act.PasteFrom("PrimarySelection") },
-}
+-- bugged, use shift ctrl v instead 
+-- c.keys = {
+-- 	{ key = "v", mods = "CTRL", action = act.PasteFrom("Clipboard") },
+-- 	{ key = "v", mods = "CTRL", action = act.PasteFrom("PrimarySelection") },
+-- }
 
 return c
